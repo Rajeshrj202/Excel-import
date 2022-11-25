@@ -5,11 +5,11 @@
     
      <h2  class="form-label">Excel Sheet Preview</h2>
      <p class="mb-4 text-md font-weight-light">Edit/Update Excel Rows and Click on the "Save" to save the data.</p>
-     <p class="text-md font-weight-light text-danger">Note*</p>
-     <p class="text-xs font-weight-light text-danger m-0"> Sapid : should be unique,Maximum 18 Character.</p>
-     <p class="text-xs font-weight-light text-danger m-0"> Hostname : should be unique,Maximum 14 Character.</p>
-     <p class="text-xs font-weight-light text-danger m-0"> Loopback : should be unique,Ipv4 Regex.</p>
-     <p class="text-xs font-weight-light text-danger m-0"> Mac Address : should be unique,Maximum 17 Character,Mac Address Format Regex.</p>
+     <p class="small  font-weight-light text-danger">Note*</p>
+     <p class="small  font-weight-light text-danger m-0"> Sapid : should be unique,Maximum 18 Character.</p>
+     <p class="small  font-weight-light text-danger m-0"> Hostname : should be unique,Maximum 14 Character.</p>
+     <p class="small  font-weight-light text-danger m-0"> Loopback : should be unique,Ipv4 Regex.</p>
+     <p class="small  font-weight-light text-danger m-0"> Mac Address : should be unique,Maximum 17 Character,Mac Address Format Regex.</p>
 
   </div>
   <div class="col-12 col-lg-6 d-flex justify-content-lg-end">
