@@ -9,7 +9,7 @@
      <p class="text-xs font-weight-light text-danger m-0"> Sapid : should be unique,Maximum 18 Character.</p>
      <p class="text-xs font-weight-light text-danger m-0"> Hostname : should be unique,Maximum 14 Character.</p>
      <p class="text-xs font-weight-light text-danger m-0"> Loopback : should be unique,Ipv4 Regex.</p>
-     <p class="text-xs font-weight-light text-danger m-0"> Mac Address : should be unique,Mac Address Format Regex.</p>
+     <p class="text-xs font-weight-light text-danger m-0"> Mac Address : should be unique,Maximum 17 Character,Mac Address Format Regex.</p>
 
   </div>
   <div class="col-12 col-lg-6 d-flex justify-content-lg-end">
