@@ -73,7 +73,7 @@ class ImportController extends Controller
 
       if(count($errors)>0):
          $html = view('import.rows', $data)->render();
-         return response()->json(["html" => $html, 'status' => true], 200);
+         return response()->json(["html" => $html, 'status' => false], 200);
       endif;
 
       DB::beginTransaction();
