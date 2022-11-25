@@ -11,7 +11,7 @@ use App\Models\RouterDetails;
 use App\Services\ValidateExcelService;
 use Excel;
 use DB;
-
+use Session;
 class ImportController extends Controller
 {
   
@@ -88,7 +88,7 @@ class ImportController extends Controller
 
 
       DB::commit();
-
+      Session::flash('message','Excel Sheet Imported Successfully'); 
 
       return response()->json(['status' => true,'redirect'=>route('router.details.index')], 200);
 

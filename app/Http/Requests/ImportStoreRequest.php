@@ -24,7 +24,7 @@ class ImportStoreRequest extends FormRequest
     public function rules()
     {
         return [
-            'excel' => 'required|in:csv,xlsx',
+            'excel' => 'required|mimes:csv,xlsx',
             
         ];
     }

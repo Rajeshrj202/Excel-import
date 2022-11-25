@@ -21,10 +21,15 @@
 
                   $('#preview-excel').html(data.html);
                }
-               
-                
+
+
 
              },
+               error: function(xhr, status, error) {
+                 
+                 alert('Oops! please select proper file type or Excel HeaderFormat');
+                 
+               },
             
          });
 
