@@ -2,7 +2,12 @@ Laravel Excel Import Live working link  : https://exportexcel.rajesh.fun/
 
 Screenshots:
 
+Excel Sheet Preview Before upload:
 ![image](https://user-images.githubusercontent.com/54094045/203955018-903935dd-0007-46b8-8d49-670bf4bf429f.png)
+
+
+Edit Excel Sheet:
+![image](https://user-images.githubusercontent.com/54094045/204080959-a760598f-f795-4804-bc9d-3ca6cdf56b3e.png)
 
 
 
